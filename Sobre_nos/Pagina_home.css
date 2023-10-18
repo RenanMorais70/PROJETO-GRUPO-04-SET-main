@@ -1,3 +1,35 @@
+body {
+    background-color: white;
+}
+.header {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+.footer {
+    background-color: green;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+.main-image {
+    width: 100%;
+}
+
+ul{
+    display: flex;
+    justify-content:space-between;
+    align-items:center;
+    margin: auto;
+}
+section {
+    display: flex;
+    justify-content:space-around;
+    align-items:center;
+    margin: auto;
+}
+
 #formulario-contato {
     background-color: #f0f0f0;
     padding: 10px;    /* padding: 10px; */
